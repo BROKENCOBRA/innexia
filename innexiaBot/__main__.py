@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Heya` 🤗 `I am` **INNEXIA** `your group super bot`
+`Heya` 🤗 `I am` **Zoya** `your group super bot`
 `I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
 """
 
@@ -84,19 +84,19 @@ buttons = [
             text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="👥 Gʀᴏᴜᴘ", url=f"https://t.me/SiderzChat"),
+        InlineKeyboardButton(text="👥 Gʀᴏᴜᴘ", url=f"https://t.me/LOVExWORD"),
         InlineKeyboardButton(
-            text="Cʜᴀɴɴᴇʟ 🔔", url=f"https://t.me/SiderzBot"
+            text="Cʜᴀɴɴᴇʟ 🔔", url=f"https://t.me/ZOYA_UPDATES"
         ),
     ],
     [
         InlineKeyboardButton(text="📜 Iɴꜰᴏʀᴍᴀᴛɪᴏɴ", callback_data="innexia_"),
         InlineKeyboardButton(
-            text="Bᴏᴛ Lɪꜱᴛ 🤖", url=f"https://t.me/SiderzBot/9"
+            text="Bᴏᴛ Lɪꜱᴛ 🤖", url=f"https://t.me/ZOYA_UPDATES/2"
         ),
     ],
     [
-        InlineKeyboardButton(text="💕 Sᴜᴍᴍᴏɴ Mᴇ 💕", url="http://t.me/Innexiabot?startgroup=true"),
+        InlineKeyboardButton(text="🔥 Sᴜᴍᴍᴏɴ Mᴇ 🔥", url="http://t.me/Innexiabot?startgroup=true"),
     ],
 ]
 
@@ -388,8 +388,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *Innexia*
-                 \nHere is the [🔥Source Code🔥](https://github.com/DarkCybers/innexiaBot) .""",
+            text=""" Hi..😻 I'm *Zoya*
+                 \nHere is the [🔥Source Code🔥](https://t.me/Xd_Lif) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
